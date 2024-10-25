@@ -1,0 +1,37 @@
+# Build Folders
+bin/
+obj/
+
+# Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Rider files
+.idea/
+
+# Visual Studio Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+
+# Temporary files
+*.tmp
+*.temp
+
+# MacOS files
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db

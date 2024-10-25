@@ -1,0 +1,15 @@
+﻿@using MVC.Models
+@model MVC.Models.Book
+
+<h1>Detalhes do Livro</h1>
+
+<p><strong>Título:</strong> @Model.Title</p>
+<p><strong>Autor:</strong> @Model.Author</p>
+<p><strong>Gênero:</strong> @Model.Genre</p>
+<p><strong>Ano de Publicação:</strong> @Model.PublishedYear</p>
+
+@if (!string.IsNullOrEmpty(Model.Description))
+{
+    <p><strong>Descrição:</strong> @Model.Description</p>
+}
+    
